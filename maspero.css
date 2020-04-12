@@ -1,0 +1,82 @@
+body{
+    background-image: url(back1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.icon{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border: 3px solid cadetblue;
+    border-radius: 2px;
+}
+.bx{
+    width: 200px;
+}
+.bxo{
+    width: 200px;
+}
+
+.txt{
+    color: wheat;
+}
+.iconsm{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: 3px solid cadetblue;
+    border-radius: 5px;
+}
+
+.footer.jumbotron {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.footer.jumbotron p{
+  margin-bottom: 0;
+}
+
+.bg-wyt{
+    background-color: blanchedalmond;
+    padding: 5px;
+    border-style: outset;
+    border-radius: 10px
+}
+
+/*---datatables---*/
+
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_desc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:before {
+bottom: .5em;
+}
+
+/*input calender*/
+.input-container input {
+    border: none;
+    box-sizing: border-box;
+    outline: 0;
+    padding: .75rem;
+    position: relative;
+    width: 100%;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background: transparent;
+    bottom: 0;
+    color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+}

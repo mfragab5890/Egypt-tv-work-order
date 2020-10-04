@@ -4,8 +4,8 @@
     //get logged in user
     $user = "ghelpo";
     $user_id = 1;
-    $queryrec=" SELECT `id`, `num`, `subject`, `status` FROM `sentorder`" ;	
-    $resultrec = mysqli_query($link,$queryrec); 
+    $queryrec=" SELECT `id`, `num`, `subject`, `status` FROM `sentorder`" ;
+    $resultrec = mysqli_query($link,$queryrec);
 ?>
 
 <!DOCTYPE html>
@@ -25,7 +25,7 @@
         <!-- custom CSS -->
         <link rel="stylesheet" type="text/css" href="maspero.css">
       </head>
-    
+
     <body>
 
             <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
@@ -103,7 +103,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </li>
             </ul>
@@ -112,9 +112,9 @@
         <br>
         <br>
         <div class="jumbotron bg-wyt">
-            
+
             <img src="maspero.jpg" width="175" height="140">
-            
+
             <div style="float:right;">
                 <h4>اتحاد الإذاعة و التليفزيون</h1>
                 <hr>
@@ -125,12 +125,12 @@
             </div>
             <br>
         </div>
-       
+
         <div class="container">
             <h2 class="txt text-center">تحديث حالة الخطاب</h2>
             <br><hr>
             <form id="ord-form" method="post" enctype="multipart/form-data" class="txt form-horizontal" >
-                
+
                 <div class="form-group">
                     <label class="control-label col-sm-2" for="reqo-id-up">الرقم المسلسل للخطاب و الموضوع</label>
                     <div class="col-sm-10">
@@ -140,9 +140,9 @@
                                 while($rowrec = mysqli_fetch_array($resultrec))
                                 {
                                     echo'<option id = '.$rowrec['id'].' value='.$rowrec['status'].'> '.$rowrec['num'].'-'.$rowrec['subject'].' </option>';
-                                }      
+                                }
                             ?>
-                            
+
                         </select>
                     </div>
                 </div>
@@ -158,15 +158,15 @@
                         <input type="text" class="form-control" id="nostat" placeholder="الحالة الحالية" name="res">
                     </div>
                 </div>
-               
-                <div class="form-group">        
+
+                <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">
                         <button type="button" class="btn btn-primary" id="up-ostat">تحديث</button>
                     </div>
                 </div>
             </form>
         </div>
-        
+
         <!-- SCRIPTS -->
         <!-- JQuery -->
         <script type="text/javascript" src="lib/js/jquery.min.js"></script>
@@ -182,8 +182,8 @@
         <script src="lib/jquery.validate.min.js"></script>
         <script src="lib/additional-methods.min.js"></script>
         <!-- custom javascript -->
-        <script src="maspero.js"></script> 
-    
+        <script src="maspero.js"></script>
+
     </body>
 
 </html>

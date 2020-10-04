@@ -1,8 +1,8 @@
-<?php 
+<?php
 
-$user='amrmagdy';
-$pass='werryuo*50';
-$databasename='maspero';
+$user='ghelpo';
+$pass='tafiTAFI';
+$databasename='ghelpo';
 
 date_default_timezone_set("Africa/Cairo");
 

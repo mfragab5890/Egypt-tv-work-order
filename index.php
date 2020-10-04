@@ -22,7 +22,7 @@ $user_id = 1;
         <!-- custom CSS -->
         <link rel="stylesheet" type="text/css" href="maspero.css">
       </head>
-    
+
     <body>
 
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" >
@@ -100,7 +100,7 @@ $user_id = 1;
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </li>
             </ul>
@@ -109,9 +109,9 @@ $user_id = 1;
         <br>
         <br>
         <div class="jumbotron bg-wyt">
-            
+
             <img src="maspero.jpg" width="175" height="140">
-            
+
             <div style="float:right;">
                 <h4>اتحاد الإذاعة و التليفزيون</h1>
                 <hr>
@@ -122,14 +122,14 @@ $user_id = 1;
             </div>
             <br>
         </div>
-  
+
         <div class="container">
             <div class="row">
                 <div class="col-sm-4">
                     <h3  class="jumbotron text-center bg-wyt"> <img class="icon" src="create.jpg"> انشاء</h3>
-                   
+
                     <div  class="text-center btns">
-                    
+
                         <button class="btn btn-primary bx" onclick="location.href = 'sendOrder.php';"> <img class="icon" src="sent.jpg"> امر شغل  صادر</button>
                         <hr>
                         <br>
@@ -145,15 +145,15 @@ $user_id = 1;
                         <button class="btn btn-primary bx" onclick="location.href = 'new.html';"> <img class="icon" src="sent.jpg"> فارغ</button>
                         <hr>
                         <br>
-                        
+
                     </div>
-                    
+
                 </div>
                 <div class="col-sm-4">
                     <h3  class="jumbotron text-center bg-wyt" > <img class="icon" src="show.jpg"> استعراض</h3>
-                    
+
                     <div  class="text-center btns">
-                    
+
                         <button class="btn btn-primary bx" onclick="location.href = 'viewOrder.php';"><img class="icon" src="showSent.jpg"> بريد صادر </button>
                         <hr>
                         <br>
@@ -161,12 +161,12 @@ $user_id = 1;
                         <hr>
                         <br>
                     </div>
-                    
+
                 </div>
                 <div class="col-sm-4">
                     <h3  class="jumbotron text-center bg-wyt" > <img class="icon" src="update.jpg"> تحديث</h3>
                     <div  class="text-center btns">
-                    
+
                         <button class="btn btn-primary bx" onclick="location.href = 'updateOrder.php';"><img class="icon" src="sentStatus.jpg"> حالة بريد صادر</button>
                         <hr>
                         <br>
@@ -174,9 +174,9 @@ $user_id = 1;
                         <hr>
                         <br>
                         <button class="btn btn-primary bx" onclick="location.href = 'addAttachment.php';"><img class="icon" src="addAttach.jpg"> اضافة مرفقات</button>
-                    
+
                     </div>
-                    
+
                 </div>
             </div>
             <br>
@@ -187,12 +187,12 @@ $user_id = 1;
             <!-- Copyright -->
             <div class="footer-copyright text-center py-3 " style="color:black;" >
                 © 2020 Copyright:
-                <a href="https://karezma.co/"> karezma.co</a>
+                <a href="https://www.linkedin.com/in/mostafa-fouad-ragab/"> Mostafa Fouad</a>
             </div>
             <!-- Copyright -->
         </footer>
 
-    
+
         <!-- SCRIPTS -->
         <!-- JQuery -->
         <script type="text/javascript" src="lib/js/jquery.min.js"></script>
@@ -208,8 +208,8 @@ $user_id = 1;
         <script src="lib/jquery.validate.min.js"></script>
         <script src="lib/additional-methods.min.js"></script>
         <!-- custom javascript -->
-        <script src="maspero.js"></script> 
-    
+        <script src="maspero.js"></script>
+
     </body>
 
 </html>
